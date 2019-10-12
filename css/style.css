@@ -1,0 +1,12 @@
+.todo-container {
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 0;
+  padding: 2px;
+}
+.todo-item {
+  margin: 1px 0;
+}
+
+.cust-btn {
+  cursor: pointer;
+}

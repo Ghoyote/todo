@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./fa/fontawesome.min.css" />
+    <link rel="stylesheet" href="./fa/solid.min.css" />
+    <link rel="stylesheet" href="./fa/brands.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body class="container">
+    <div class="jumbotron">
+      <h1 class="display-3">Ghoyote Lab #2</h1>
+      <p class="lead">
+        We will cover the basics of different Javascript features in this
+        tutorial over the semester
+      </p>
+      <hr class="my-4" />
+      <p>
+        Add an item to the list
+      </p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </p>
+      <div class="float-right">
+        <i class="fas fa-plus-square fa-2x cust-btn"></i>
+      </div>
+      <hr style="clear: both" />
+      <div class="row list-zone" id="list-zone">
+        <ul class="list-group todo-container col">
+          <li
+            class="todo-item list-group-item d-flex justify-content-between align-items-center"
+            id="item0"
+          >
+            <span class="select">
+              <input type="checkbox" name="check#1" />
+            </span>
+            Cras justo odio
+            <div>
+              <span class="badge"
+                ><i class="fas fa-pencil-alt cust-btn"></i
+              ></span>
+              <span class="badge text-primary"
+                ><i
+                  class="fas fa-trash cust-btn delete-text"
+                  onclick="destroy('item0')"
+                ></i
+              ></span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+  </body>
+  <script src="./js/main.js" type="text/javascript"></script>
+</html>
