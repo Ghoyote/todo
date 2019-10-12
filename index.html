@@ -29,11 +29,11 @@
         <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
       </p>
       <div class="float-right">
-        <i class="fas fa-plus-square fa-2x cust-btn"></i>
+        <i class="fas fa-plus-square fa-2x cust-btn" id="addTodo"></i>
       </div>
       <hr style="clear: both" />
-      <div class="row list-zone" id="list-zone">
-        <ul class="list-group todo-container col">
+      <div class="row list-zone">
+        <ul class="list-group todo-container col" id="list-zone">
           <li
             class="todo-item list-group-item d-flex justify-content-between align-items-center"
             id="item0"
@@ -44,11 +44,11 @@
             Cras justo odio
             <div>
               <span class="badge"
-                ><i class="fas fa-pencil-alt cust-btn"></i
-              ></span>
-              <span class="badge text-primary"
-                ><i
-                  class="fas fa-trash cust-btn delete-text"
+                ><i class="fas fa-pencil-alt cust-btn"></i>
+                <!-- take note of this line. different from original repo code -->
+                |
+                <i
+                  class="fas fa-trash cust-btn delete-text text-primary"
                   onclick="destroy('item0')"
                 ></i
               ></span>
